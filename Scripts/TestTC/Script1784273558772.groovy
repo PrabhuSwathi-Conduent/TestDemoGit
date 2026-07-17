@@ -19,3 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('www.gmail.com')
 
+WebUI.verifyElementClickable(findTestObject(null))
+
+WebUI.waitForPageLoad(30)
+
+WebUI.delay(30)
+
