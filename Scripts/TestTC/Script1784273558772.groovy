@@ -25,3 +25,5 @@ WebUI.waitForPageLoad(30)
 
 WebUI.delay(30)
 
+WebUI.closeBrowser()
+
